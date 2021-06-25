@@ -21,4 +21,4 @@ if [ $delete_bootstrap ]; then
 fi
 
 echo "修改默认主题"
-sed -i "s/bootstrap/$argon_violet/g" feeds/luci/modules/luci-base/root/etc/config/luci
+sed -i "s/bootstrap/$edge/g" feeds/luci/modules/luci-base/root/etc/config/luci
